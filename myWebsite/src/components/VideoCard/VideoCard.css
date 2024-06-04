@@ -1,0 +1,50 @@
+/* src/components/VideoCard.css */
+
+.video-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex: 1;
+    max-width: 300px;
+}
+
+.video-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between video cards as needed */
+    justify-content: left; /* Center the video cards horizontally */
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.video-info {
+    padding: 10px;
+}
+
+.video-info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.video-info p {
+    margin-bottom: 10px;
+}
+
+.video-info a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.video-info a:hover {
+    background-color: #0056b3;
+}
